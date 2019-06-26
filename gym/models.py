@@ -175,7 +175,7 @@ class Equipment(models.Model):
         db_index=True
     )
     buy_time = models.DateTimeField(
-        auto_created=True
+        auto_now=True
     )
     repair_time = models.DateTimeField(
         null=True
