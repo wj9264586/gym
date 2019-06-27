@@ -20,6 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r"^gym/", include("gym.urls")),
     url(r"^gym/member_info/", include("gym.urls_member_info_api")),
-    url(r"^gym/hr/", include("gym.hr_api_urls")),
-    url(r"gym/equipment/",include("gym.equipment_apis_urls"))
+    url(r"^gym/hr/", include("gym.hr_api_urls"))
 ]
